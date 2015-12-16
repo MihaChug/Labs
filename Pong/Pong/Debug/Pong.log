@@ -1,0 +1,38 @@
+﻿Сборка начата 16.12.2015 23:55:40.
+     1>Проект "C:\Users\Michael\Documents\Visual Studio 2015\Projects\Pong\Pong\Pong.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:/SFML/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_DYNAMIC /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\vars.h(19): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(24): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(27): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(29): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(30): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(33): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(46): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(50): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(58): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(109): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(109): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(117): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(117): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(126): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(127): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(135): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(136): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(145): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(156): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(159): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(160): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(173): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(174): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(188): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\michael\documents\visual studio 2015\projects\pong\pong\main.cpp(189): warning C4305: =: усечение из "double" к "float"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2015\Projects\Pong\Debug\Pong.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/SFML/lib "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Michael\Documents\Visual Studio 2015\Projects\Pong\Debug\Pong.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\Visual Studio 2015\Projects\Pong\Debug\Pong.lib" /MACHINE:X86 Debug\main.obj
+         Pong.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2015\Projects\Pong\Debug\Pong.exe
+     1>Сборка проекта "C:\Users\Michael\Documents\Visual Studio 2015\Projects\Pong\Pong\Pong.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.95
