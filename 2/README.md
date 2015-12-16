@@ -1,2 +1,2 @@
 #Lab2
-Клон игры Pong
+The Pong clone
