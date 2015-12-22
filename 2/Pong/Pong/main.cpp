@@ -145,7 +145,7 @@ int collisions()
 		int u = p.left + p.width - b.left;
 		b.left = p.left + p.width + u;
 		ball.setPosition(b.left, b.top);
-		BallSpeed *= 1.01f;
+		BallSpeed *= 2.f;
 	}
 	if (intersects(ball, player2))
 	{
@@ -156,8 +156,8 @@ int collisions()
 		int u = b.left + b.width - p.left;
 		b.left = p.left - b.width - u;
 		ball.setPosition(b.left, b.top);
-		BallSpeed.x = BallSpeed.x*1.01;
-		BallSpeed.y = BallSpeed.y*1.01;
+		BallSpeed.x = BallSpeed.x*2;
+		BallSpeed.y = BallSpeed.y*2;
 	}
 
 	if (intersects(ball, left))
